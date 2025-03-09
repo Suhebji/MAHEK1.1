@@ -24,36 +24,35 @@ const time = process.uptime(),
 const moment = require("moment-timezone");
 var juswa = moment.tz("Asia/Dhaka").format("『D/MM/YYYY』 【HH:mm:ss】");
 var link =                                     
-["https://i.imgur.com/Kj2CmiZ.jpegv" , "https://i.imgur.com/yiNOiVU.jpeg","https://i.postimg.cc/Sx7Yk5D0/ef81664323554dd5c8f17f0826e26e5e.jpg","https://i.postimg.cc/DwqYrqPQ/b123e2cb78bcb4fa5dcb53dfdeed2611.jpg"];
-var callback = () => api.sendMessage({body:` ╾━╤デ╦︻(▀̿Ĺ̯▀̿ ̿)🇵🇰𝐀𝐃𝐌𝐈𝐍 𝐀𝐍𝐃 𝐁𝐎𝐓 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐓𝐈𝐎𝐍 🇵🇰
+["https://i.imgur.com/Kj2CmiZ.jpegv" , "https://i.postimg.cc/020LvZCH/Whats-App-Image-2025-03-09-at-1-04-14-PM.jpg" , "https://i.postimg.cc/FK7qjvX2/Whats-App-Image-2025-03-09-at-1-04-13-PM.jpg"];
+var callback = () => api.sendMessage({body: ` ╾━╤デ╦︻(▀̿Ĺ̯▀̿ ̿)🇵🇰𝐀𝐃𝐌𝐈𝐍 𝐀𝐍𝐃 𝐁𝐎𝐓 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐓𝐈𝐎𝐍 🇵🇰  
 (⌐▀͡ ̯ʖ▀)︻̷┻̿═━一-
 
-☄️Bot Name︎︎︎☄️  ${global.config.BOTNAME}
+☄️Bot Name︎︎︎☄️  global.config.BOTNAME
 
-🔥Bot Admin🔥☞︎︎︎☜︎︎︎✰ ℤ𝔸̃𝕀̨ℕ̃ ℙℝ𝕀̨ℕ̃ℂ̧𝔼́💔🥀
+🔥Bot Admin🔥☞︎︎︎☜︎︎︎✰ Mahak Jutti 💖💫
 
-🙈bot andmin owner facebook id link🙈➪ https://www.facebook.com/profile.php?id=61566479789589💞🕊️
+🙈Bot Admin     Owner Facebook ID Link🙈➪ [Facebook Profile](https://www.facebook.com/share/15nAWLrSyv/) 💞🕊️
 
-👋For Any Kind Of Help Contact On Telegram  Username 👉@Zainijutt7 😇
+
 
 ✧══════•❁❀❁•══════✧
 
-🌸Bot Prefix🌸☞︎︎︎☜︎︎︎✰ ${global.config.PREFIX}
+🌸Bot Prefix🌸☞︎︎︎☜︎︎︎✰{global.config.PREFIX}
 
-♥️Bot Owner♥️ ☞︎︎︎☜︎︎︎✰ 𝗭𝗔𝗜𝗡 𝗝𝗨𝗧𝗧
+♥️Bot Owner♥️ ☞︎︎︎☜︎︎︎✰ 𝗠𝗮𝗵𝗮𝗸 𝗝𝘂𝘁𝘁𝗶
 
 🥳UPTIME🥳
 
-🌪️Today is🌪️ ☞︎︎︎☜︎︎︎✰ ${juswa} 
+🌪️Today is🌪️ ☞︎︎︎☜︎︎︎✰ juswa 
 
-⚡Bot is running⚡ ${hours}:${minutes}:${seconds}.
+⚡Bot is running⚡{hours}:minutes:{seconds}.
 
 ✅Thanks for using ${global.config.BOTNAME} Bot🖤
 
-
-🦢🍒•••ꞪɛᏒɛ ɪʂ ɮ❍┼ ❍ωɳɜɽ ɳaʍɜ•••🌷💞
-┏━🕊️━━°❀•°:🎀🧸💙🧸🎀:°•❀°━━💞━┓
-🌸✦✧✧✧✧✰🍒𝕫𝕒𝕚𝕟 𝕡𝕣𝕚𝕟𝕔𝕖🌿✰✧✧✧✧✦🌸
+🦢🍒•••ꞪɛᏒɛ ɪʂ ɮ❍┼ ❍ωɳɜɽ ɳaʍɜ•••🌷💞  
+┏━🕊️━━°❀•°:🎀🧸💙🧸🎀:°•❀°━━💞━┓  
+🌸✦✧✧✧✧✰🍒𝕞𝕒𝕙𝕒𝕜 𝕛𝕦𝕥𝕥𝕚🌿✰✧✧✧✧✦🌸  
 ┗━🕊️━━°❀•°:🎀🧸💙🧸🎀:°•❀°━━💞━┛
 
 
