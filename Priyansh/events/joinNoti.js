@@ -31,47 +31,40 @@ module.exports.run = async function({ api, event }) {
     if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
         api.changeNickname(`[ ${global.config.PREFIX} ] • ${(!global.config.BOTNAME) ? " " : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
         const fs = require("fs");
-        return api.sendMessage("", event.threadID, () => api.sendMessage({body: `🍒💙•••Ɓ❍ʈ Ƈøɳɳɛƈʈɛɗ•••💞🌿
-        
-🕊️🌸...Ɦɛɭɭ❍ Ɠɣus Ɱɣ Ɲɑɱɛ Is 🍒💙•••✦𝘽𝙤𝙩✦•••💞🌿
+        return api.sendMessage("", event.threadID, () => api.sendMessage({body: `🍒💙•••Ɓ❍ʈ Mahak Jutti •••💞🌿
 
+🕊️🌸...Ɦɛɭɭ❍ Ɠɣus Ɱɣ Ɲɑɱɛ Is 🍒💙•••✦𝓂𝒶𝒽𝒶𝒦 Jutti✦•••💞🌿
 
+✨💞Ɱɣ Ꭾɽɛfɪᵡ ɪs /
 
+\n\nƬɣƥɛglobal.config.PREFIXꞪɛɭᎮ Ƭ❍ søø Ɱɣ Ƈøɱɱɑɳɗ ɭɪsʈ...🤍💫 :{global.config.PREFIX}Sɧɑɣɽɪ..💜(Ƭɛxʈ)\nglobal.config.PREFIX (Ƥɧøʈø)🌬️🌳🌊
 
- ✨💞Ɱɣ Ꭾɽɛfɪᵡ ɪs / 
+🦋🌸Ƭɣƥɛ{global.config.PREFIX}Ɦɛɭƥ2 (Ɑɭɭ Ƈøɱɱɑɳɗʂ)...☃️💌
 
-
-\n\nƬɣƥɛ${global.config.PREFIX}ꞪɛɭᎮ Ƭ❍ søø Ɱɣ Ƈøɱɱɑɳɗ ɭɪsʈ...🤍💫\n
-\nƐxɑɱƥɭɛ :\n
-
-${global.config.PREFIX}Sɧɑɣɽɪ..💜(Ƭɛxʈ)\n${global.config.PREFIX} (Ƥɧøʈø)🌬️🌳🌊
-
-🦋🌸Ƭɣƥɛ${global.config.PREFIX}Ɦɛɭƥ2 (Ɑɭɭ Ƈøɱɱɑɳɗʂ)...☃️💌
-
-${global.config.PREFIX} ɪɳfø (ɑɗɱɪɳ Iɳføɽɱɑʈɪøɳ)👀✍️
-...🍫🥀Ɱɣ ❍wɳɛɽ ɪs Ɱɽ ℙ𝕣𝕚𝕪𝕒𝕟𝕤𝕙...🕊️☃️
-
-${global.config.PREFIX}🌺🍃Ƈɑɭɭɑɗ føɽ Ɑɳɣ ɪʂʂuɛ 
+global.config.PREFIX ɪɳfø (ɑɗɱɪɳ Iɳføɽɱɑʈɪøɳ)👀✍️
+...🍫🥀Ɱɣ ❍wɳɛɽ ɪs Ɱɽ ℳ𝒶𝒽𝒶𝒦.....🕊️☃️{global.config.PREFIX}🌺🍃Ƈɑɭɭɑɗ føɽ Ɑɳɣ ɪʂʂuɛ 
 <<<<<------------------------------>>>>>
 A̸N̸D̸ F̸O̸R̸ A̸N̸Y̸ R̸E̸P̸O̸R̸T̸ O̸R̸ C̸O̸N̸T̸A̸C̸T̸ B̸O̸T̸ D̸E̸V̸A̸L̸O̸P̸A̸R̸....💙🍫
 
-💝🥀𝐎𝐖𝐍𝐄𝐑:- ☞꧁𝐙𝐚𝐢𝐧𝐢-𝐉𝐮𝐭𝐭꧂☜ 💫\n🖤𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 ℤ𝔸𝕀ℕ ℙℝ𝕀ℕℂ𝔼🖤\n😳𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝🤓:- ☞https://www.facebook.com/profile.php?id=100086033644262&mibextid=ZbWKwL\n
-👋For Any Kind Of Help Contact On Telegram  Username 👉 @zainijutt7😇 
+💝🥀𝐎𝐖𝐍𝐄𝐑:- ☞꧁𝐌𝐚𝐡𝐚𝐤-𝐉𝐮𝐭𝐭꧂☜ 💫  
+🖤𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 ℳ𝒶𝒽𝒶𝒦 Ⅎ𝓇𝒾𝑒𝓃𝒹🖤  
+😳𝐇ere 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝🤓:- ☞[Facebook Profile](https://www.facebook.com/share/15nAWLrSyv/)  
 
 
-✮☸✮
-✮┼💞┼✮
-☸🕊️━━•🌸•━━🕊️☸
-✮☸✮
-✮┼🍫┼✮
-☸🎀━━•🧸•━━🎀☸
-✮┼🦢┼✮
-✮☸✮
-☸🌈━━•🤍•━━🌈☸
-✮☸✮
-✮┼❄️┼✮
+✮☸✮  
+✮┼💞┼✮  
+☸🕊️━━•🌸•━━🕊️☸  
+✮☸✮  
+✮┼🍫┼✮  
+☸🎀━━•🧸•━━🎀☸  
+✮┼🦢┼✮  
+✮☸✮  
+☸🌈━━•🤍•━━🌈☸  
+✮☸✮  
+✮┼❄️┼✮  
 
-┏━🕊️━━°❀•°:🎀🧸💙🧸🎀:°•❀°━━💞━┓🌸✦✧✧✧✧✰🍒ℤ𝔸𝕀ℕ🌿✰✧✧✧✧✦🌸  ┗━🕊️━━°❀•°:🎀🧸💙🧸🎀:°•❀°━━💞━┛
+┏━🕊️━━°❀•°:🎀🧸💙🧸🎀:°•❀°━━💞━┓ 🌸✦✧✧✧✧✰🍒ℳ𝒶𝒽𝒶𝒦🌿✰✧✧✧✧✦🌸  
+┗━🕊️━━°❀•°:🎀🧸💙🧸🎀:°•❀°━━💞━┛
 `, attachment: fs.createReadStream(__dirname + "/cache/join1.mp4","join2.mp4","join3.mp4","join1.mp4","join4.mp4","join5.mp4","join6.mp4","join7.mp4","join8.mp4","join9.mp4","join10.mp4","join11.mp4","join12.mp4","join13.mp4",)} ,threadID));
     }
     else {
